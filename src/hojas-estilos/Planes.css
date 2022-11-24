@@ -1,0 +1,53 @@
+.contenedor-plan {
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 90%);
+
+}
+
+.imagen-plan {
+    height: 100%;
+    width: auto;
+}
+
+.contenedor-texto-plan {
+    width: 560px;
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nombre-plan {
+    font-size: 1.3rem;
+    background-color: rgb(245, 79, 45);
+}
+
+.subtitulo-plan {
+    text-align: left;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.descripcion-plan {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.texto-valor {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.texto-precio {
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+}

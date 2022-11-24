@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.wrapper {
+  padding-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body h3 {
+  margin-bottom: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-brand a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-wrapper,
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-wrapper {
+  max-width: 700px;
+}
+
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.87rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: white;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.edit-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+Button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+}
+
+.carousel-item p {
+  color: white;
+  font-size: 30px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.carousel-item h5 {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 35px;
+
 }
